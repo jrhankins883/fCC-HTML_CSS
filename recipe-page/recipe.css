@@ -1,0 +1,21 @@
+header {
+    font-family: 'Lora', sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Merriweather', sans-serif;
+}
+
+li {
+    padding: 5px 0;
+}
