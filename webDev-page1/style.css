@@ -1,0 +1,14 @@
+body {
+    background-color: #000;
+    color: #00FF41;
+    font-family: monospace;
+    line-height: 1.6;
+    margin: 0;
+    padding: 1rem;
+}
+.matrix-title {
+    color: #00FF41;
+    text-shadow: 0 0 5px #00FF41, 0 0 10px #00FF41;
+    font-size: 2em;
+    text-align: center;
+}
