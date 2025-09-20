@@ -1,0 +1,18 @@
+table {
+    width: 100%;
+}
+
+caption {
+    font-size: 3rem;
+    margin: 2.5rem;
+}
+
+th {
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+td {
+    font-size: 1rem;
+    padding: 0.7rem;
+}
