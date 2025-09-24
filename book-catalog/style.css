@@ -42,7 +42,7 @@ thead th {
     border-collapse: separate;
     text-align: center;
     padding: 1rem;
-    background-color: #ff0000;
+    background-color: #8b0000;
     color: #000;
 }
 
@@ -67,6 +67,6 @@ tfoot td {
     border: 5px solid #000;
     border-radius: 5rem;
     text-align: center;
-    background-color:#ff0000;
+    background-color: #8b0000;
     color: #000;
 }
