@@ -1,0 +1,44 @@
+/* All the style for the <header> element */
+header {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 2.5rem;
+}
+
+/* All the style for .article1 class */
+.heading1 {
+    text-align: center;
+}
+
+.p1, .p2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0;
+}
+.p1 {
+    font-size: 1.5rem;
+}
+.p2 {
+    font-size: 1.1rem;
+}
+
+h3 {
+    margin: 0;
+}
+
+/* All the style for the .article2 class */
+.article2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article2 h2, .article2 h3 {
+    color: red;
+}
+.article2 #p1-2, .article2 #p2-2 {
+    color: blue;
+}
