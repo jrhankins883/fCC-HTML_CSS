@@ -1,6 +1,7 @@
 /* All the style for the <header> element */
 header {
     text-align: center;
+    margin-bottom: 2.5rem;
 }
 
 li {
@@ -8,7 +9,15 @@ li {
     margin-right: 2.5rem;
 }
 
+hr {
+    width: 75%;
+}
+
 /* All the style for .article1 class */
+.article1 {
+    margin-bottom: 2rem;
+}
+
 .heading1 {
     text-align: center;
 }
@@ -33,12 +42,29 @@ h3 {
 /* All the style for the .article2 class */
 .article2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    border: 3px outset black;
+    border-radius: 2.5rem;
+    width: fit-content;
+    margin: 2rem auto;
+    gap: 7rem;
+    padding: 1rem;
 }
 
 .article2 h2, .article2 h3 {
-    color: red;
+    text-align: center;
 }
-.article2 #p1-2, .article2 #p2-2 {
-    color: blue;
+
+/* All the styles for the .article3 class */
+.what-next {
+    display: flex;
+    justify-content: center;
+    border: 3px inset black;
+    border-radius: 50px;
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+.article3 h2 {
+    justify-content: flex-start;
 }
