@@ -25,7 +25,6 @@
             placeholder="E.g., Jane Doe"
           />
 
-
         <label for="grade">Student Grade: </label>
         <input
             type="number"
@@ -50,8 +49,34 @@
 
       <fieldset>
         <legend>Preferred Contact Method</legend>
-        
+        <label class="contact-method" for="email">Email: </label>
+        <input
+            id="email"
+            class="contact-method-radio-btn"
+            type="radio"
+            name="contact-method"
+            value="email"
+            checked
+          />
+
+        <label class="contact-method" for="phone">Phone: </label>
+        <input
+            id="phone"
+            class="contact-method-radio-btn"
+            type="radio"
+            name="contact-method"
+            value="phone"
+          />
       </fieldset>
+
+      <fieldset>
+        <legend>Additional Notes</legend>
+        <label for="notes"
+            >Any specific concerns or topics you'd like to discuss?</label>
+        <textarea id="notes" name="notes" rows="4" cols="50"></textarea>
+      </fieldset>
+
+      <button class="submit-btn" type="submit">Submit Form</button>
     </form>
   </main>
 </body>
